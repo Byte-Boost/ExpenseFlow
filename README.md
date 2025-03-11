@@ -1,4 +1,4 @@
-<h1 align="center">Reembolso de Despesas</h1>
+<h1 align="center">ExpenseFlow 🏦 </h1>
    <!-- 
    <p align="center">
    <image alt="header-main" src=""/>
@@ -21,12 +21,16 @@
 <span id="objetivo">
    
 ## :dart: Objetivo 
-<blockquote></blockquote>
+<blockquote>
+O objetivo do ExpenseFlow é desenvolver uma aplicação móvel intuitiva e de fácil utilização, permitindo que os usuários realizem requisições de maneira simples e prática. A aplicação visa proporcionar uma experiência fluida e eficiente, facilitando o gerenciamento de despesas. O projeto foi produzido utilizando a metodologia ágil Scrum, garantindo entregas rápidas, iterativas e alinhadas às necessidades do cliente, promovendo um ciclo contínuo de melhorias e adaptações.
+</blockquote>
 
 <span id="visão-do-produto">
    
 ## :eye_speech_bubble: Visão do Produto   
-<blockquote></blockquote>
+<blockquote>   
+A visão do ExpenseFlow é ser uma solução móvel para a gestão e requisição de reembolsos corporativos, oferecendo uma plataforma responsiva, intuitiva e de fácil uso. O objetivo é simplificar o processo de solicitação e aprovação de reembolsos, proporcionando uma experiência ágil e eficiente tanto para os usuários quanto para as empresas, aumentando a produtividade e garantindo maior controle e transparência nas finanças corporativas.
+</blockquote>
 
 <span id="cronograma">  
    
