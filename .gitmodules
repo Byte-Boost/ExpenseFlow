@@ -1,6 +1,6 @@
-[submodule "Frontend_Reembolso_de_Despesas"]
-	path = Frontend_Reembolso_de_Despesas
-	url = https://github.com/Byte-Boost/Frontend_Reembolso_de_Despesas
-[submodule "Backend_Reembolso_de_Despesas"]
-	path = Backend_Reembolso_de_Despesas
-	url = https://github.com/Byte-Boost/Backend_Reembolso_de_Despesas
+[submodule "Frontend_ExpenseFlow"]
+	path = Frontend_ExpenseFlow
+	url = https://github.com/Byte-Boost/Frontend_ExpenseFlow
+[submodule "Backend_ExpenseFlow"]
+	path = Backend_ExpenseFlow
+	url = https://github.com/Byte-Boost/Backend_ExpenseFlow
