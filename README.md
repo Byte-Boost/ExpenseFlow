@@ -52,8 +52,28 @@ A visão do ExpenseFlow é ser uma solução móvel para a gestão e requisiçã
 <details>
  <summary>Product Backlog</summary>
    
-| Rank | Prioridade | US | Requisito Funcional | Estimativa (horas) | Sprint | Critério de aceitação |
-| --- | --- | --- | --- | --- | --- | --- |
+| Rank | Prioridade | User Story | Estimativa | Sprint | Critério de aceitação |
+| --- | --- | --- | --- | --- | --- |
+| 1 | ALTA | "Como usuário, quero fazer login na aplicação, para que possa acessar minhas informações e funcionalidades." | 2 | 1 | "Tela com Campos para acesso a aplicação com  E-mail e senha para acesso; Validar as credenciais e permitir acesso à aplicação se forem corretas; Redirecionamento para Tela Principal ao logar com sucesso" |
+| 2 | ALTA | "Como usuário, quero selecionar o tipo de reembolso que estou solicitando, para que possa categorizar corretamente minha despesa." | 2 | 1 | "Usuário deve ser capaz de selecionar o tipo de reembolso de uma lista de tipos disponíveis; O tipo de reembolso solictiado deve aparecer na tela" |
+| 3 | ALTA | "Como usuário, quero informar o valor do reembolso, para que possa registrar minha solicitação de forma precisa." | 1 | 1 | "O campo do valor do reembolso só pode aceita números ; O valor deve ser validado para certificar que é positivo e dentro do limite especificado" |
+| 4 | ALTA | "Como usuário, quero enviar uma foto do comprovante armazenada na minha galeria, para que possa anexá-la ao meu pedido de reembolso." | 3 | 1 | "Usuário deve ser capaz de acessar sua galeria de fotos/arquivos do dispositivo; Usuário deve poder selecionar uma foto/pdf para anexo; A foto/pdf deve ser exibido na tela antes do envio" |
+| 5 | ALTA | "Como usuário, quero ver uma lista dos meus pedidos de reembolso, para que possa acompanhar minhas solicitações." | 1 | 1 | "Tela com uma lista de pedidos de reembolso do usuário; A lista deve conter informações basicas do pedido" |
+| 6 | ALTA | "Como usuário, quero receber um alerta ao tentar solicitar um reembolso acima do limite permitido, para que eu possa justificar o valor." | 1 | 1 | "Um alerta deve aparecer na tela do usuário caso ele ultrapasse o limite; O alerta deve fornecer informações de como justificar a ultrapassagem do limite" |
+| 7 | ALTA | "Como sistema, quero salvar a data, o valor e o tipo do reembolso, para que possa processar corretamente as solicitações dos usuários." | 2 | 1 | "Armazenar a data da solicitação, o valor e o tipo de reembolso corretamente no banco de dados; Essas informações devem ser acessiveis através de um endpoint na API" |
+| 8 | ALTA | "Como usuário, quero adicionar uma descrição detalhada à minha despesa, para que possa justificar a solicitação de reembolso." | 1 | 1 | "O campo de descrição permite ao usuário inserir texto; O campo de descrição é validado para garantir que o texto não seja vazio caso o usuário ultrapasse o limite de valor do pedido" |
+| 9 | ALTA | "Como usuário, quero poder excluir um comprovante anexado antes do envio, para que possa substituir por outro caso tenha anexado o errado." | 1 | 1 | "O usuário pode excluir um comprovante anexado antes de finalizar a solicitação de reembolso; O sistema confirma a exclusão do arquivo com uma mensagem e retirando a imagem/pdf da tela" |
+| 10 | ALTA | "Como usuário, quero pertencer a múltiplos grupos e projetos, para que possa gerenciar reembolsos de diferentes áreas." | 3 | 2 |
+| 11 | ALTA | "Como usuário, quero escolher o projeto, grupo ou área do reembolso, para que possa organizar minhas solicitações corretamente." | 3 | 2 |
+| 12 | ALTA | "Como usuário, quero tirar uma foto do comprovante de despesa, para que possa anexá-lo à minha solicitação de reembolso." | 2 | 2 |
+| 13 | ALTA | "Como usuário, quero visualizar o status do meu pedido de reembolso, para que possa saber se foi aprovado ou rejeitado." | 1 | 2 |
+| 14 | MÉDIA | "Como usuário, quero que meus reembolsos sejam organizados por projeto, grupo ou área, para que possa gerenciá-los com mais eficiência." | 3 | 2 |
+| 15 | MÉDIA | "Como usuário, quero cancelar uma solicitação de reembolso antes da aprovação, para que possa evitar processamento de pedidos incorretos." | 1 | 2 |
+| 16 | MÉDIA | "Como usuário, quero filtrar meus reembolsos por status (pendente, aprovado, rejeitado) ou por período (mensal, trimestral, anual), para que possa encontrar informações rapidamente" | 4 | 2 |
+| 17 | MÉDIA | "Como desenvolvidor, quero acesso a uma documentação ampla da funcionalidade dos endpoints do sistema." | 5 | 3 |
+| 18 | MÉDIA | "Como usuário, quero acesso a um manual de uso e instalação da aplicação." | 3 | 3 |
+| 19 | MÉDIA | "Como usuário, quero receber uma notificação quando meu reembolso for aprovado ou rejeitado, para que possa acompanhar meu pedido sem precisar abrir o app o tempo todo." | 1 | 3 |
+| 20 | MÉDIA | "Como usuário, quero ver o motivo pelo qual meu reembolso foi rejeitado, para que possa corrigir e reenviar, se necessário." | 1 | 3 |
 
 </details>
 <!--
@@ -99,8 +119,6 @@ https://github.com/user-attachments/assets/
 <span id="requisitos">
    
 ## 🔎 Requisitos
-<details>
-   <summary>Funcionais:</summary>
    <ul>
       <li>Implementar Aplicação com ORM em BD Relacional.</li>
       <li>Implementar Aplicação com Persistência de JSON (MongoDB por ex).</li>
@@ -110,45 +128,62 @@ https://github.com/user-attachments/assets/
       <li>Banco de dados NOSQL (ex: Mongo ou equivalente).</li>
       <li>Banco de dados Relacional (ex: MySQL ou equivalente).</li>
    </ul>
-</details>
-<details>
-   <summary>Não funcionais:</summary>
-   <ul>
-      <li></li>
-   </ul>
-</details>
    
 <span id="tecnologias">
    
 ## 🖥️Tecnologias:
-<!--
    <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,nodejs,react,nextjs,tailwind,mysql,express,sequelize&perline=3">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,nodejs,react,tailwind,mysql,express,sequelize&perline=3">
    </a>
-   <br>
-   <img src="https://github.com/Byte-Boost/Nebulon/assets/76211125/3b5defa2-cfa2-437d-8e41-1a7a7f9ba0eb" alt="javascript" height="48">
-   <img src="https://github.com/Byte-Boost/Nebulon/assets/76211125/286ca07c-d34f-4c48-b83a-84bbe776b7f3" alt="typescript" height="48">
--->
+
+   
+<span id="ferramentas">
+
 ## 🛠️ Ferramentas:
-<!--
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=vscode,github,figma&perline=3">
+    <img src="https://skillicons.dev/icons?i=vscode,github,postman,androidstudio,&perline=5">
   </a>
--->
+
+  
 <span id="como-usar">
    
 ## Como utilizar
-
-Requisitos :
+#### Requisitos :
+ - Node.js v20.6.0 ou superior
+ - MySQL 8.0
+ - Git
 
 ### Preparando o projeto
+1. Abra o cmd na pasta aonde deseja instalar o projeto
+2. Execute o comando 
+```bash
+git clone https://github.com/Byte-Boost/ExpenseFlow
+```
+3. Entre no diretório ExpenseFlow\Backend_ExpenseFlow
+4. Crie um arquivo chamado ".env"
+5. Abra este arquivo com seu editor de texto de preferência, e preencha o mesmo seguindo o modelo ".env.example", presente no mesmo diretório.
+6. Repita os passos 4 e 5 no diretório ExpenseFlow\Frontend_ExpenseFlow
 
 
 ### Executando o projeto
 
+
 #### Backend
+1. Certifique-se que seu serviço MySQL esteja rodando
+2. Abra o cmd na pasta ExpenseFlow\Backend_ExpenseFlow
+3. Rode os comandos: 
+```
+npm install
+npm run start
+```
 
 #### Frontend
+1. Abra o cmd na pasta ExpenseFlow\Frontend_ExpenseFlow
+2. Rode os comandos: 
+```
+npm install
+npx expo start
+```
 
 
 <span id="equipe">
