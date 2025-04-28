@@ -133,7 +133,7 @@ https://github.com/user-attachments/assets/
    
 ## 🖥️Tecnologias:
    <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,nodejs,react,tailwind,mysql,express,sequelize&perline=3">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,nodejs,react,tailwind,mysql,mongodb,express,sequelize&perline=3">
    </a>
 
    
@@ -152,6 +152,7 @@ https://github.com/user-attachments/assets/
  - Node.js v20.6.0 ou superior
  - MySQL 8.0
  - Git
+ - MongoDb
 
 ### Preparando o projeto
 1. Abra o cmd na pasta aonde deseja instalar o projeto
@@ -169,7 +170,7 @@ git clone https://github.com/Byte-Boost/ExpenseFlow
 
 
 #### Backend
-1. Certifique-se que seu serviço MySQL esteja rodando
+1. Certifique-se que seus serviços MySQL e MongoDb estejam rodando
 2. Abra o cmd na pasta ExpenseFlow\Backend_ExpenseFlow
 3. Rode os comandos: 
 ```
