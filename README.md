@@ -63,16 +63,16 @@ A visão do ExpenseFlow é ser uma solução móvel para a gestão e requisiçã
 | 7 | ALTA | "Como sistema, quero salvar a data, o valor e o tipo do reembolso, para que possa processar corretamente as solicitações dos usuários." | 2 | 1 | "Armazenar a data da solicitação, o valor e o tipo de reembolso corretamente no banco de dados; Essas informações devem ser acessiveis através de um endpoint na API" |
 | 8 | ALTA | "Como usuário, quero adicionar uma descrição detalhada à minha despesa, para que possa justificar a solicitação de reembolso." | 1 | 1 | "O campo de descrição permite ao usuário inserir texto; O campo de descrição é validado para garantir que o texto não seja vazio caso o usuário ultrapasse o limite de valor do pedido" |
 | 9 | ALTA | "Como usuário, quero poder excluir um comprovante anexado antes do envio, para que possa substituir por outro caso tenha anexado o errado." | 1 | 1 | "O usuário pode excluir um comprovante anexado antes de finalizar a solicitação de reembolso; O sistema confirma a exclusão do arquivo com uma mensagem e retirando a imagem/pdf da tela" |
-| 10 | ALTA | "Como usuário, quero pertencer a múltiplos grupos e projetos, para que possa gerenciar reembolsos de diferentes áreas." | 3 | 2 |
-| 11 | ALTA | "Como usuário, quero escolher o projeto, grupo ou área do reembolso, para que possa organizar minhas solicitações corretamente." | 3 | 2 |
-| 12 | ALTA | "Como usuário, quero tirar uma foto do comprovante de despesa, para que possa anexá-lo à minha solicitação de reembolso." | 2 | 2 |
-| 13 | ALTA | "Como usuário, quero visualizar o status do meu pedido de reembolso, para que possa saber se foi aprovado ou rejeitado." | 1 | 2 |
-| 14 | MÉDIA | "Como usuário, quero que meus reembolsos sejam organizados por projeto, grupo ou área, para que possa gerenciá-los com mais eficiência." | 3 | 2 |
-| 15 | MÉDIA | "Como usuário, quero cancelar uma solicitação de reembolso antes da aprovação, para que possa evitar processamento de pedidos incorretos." | 1 | 2 |
-| 16 | MÉDIA | "Como usuário, quero filtrar meus reembolsos por status (pendente, aprovado, rejeitado) ou por período (mensal, trimestral, anual), para que possa encontrar informações rapidamente" | 4 | 2 |
-| 17 | MÉDIA | "Como desenvolvidor, quero acesso a uma documentação ampla da funcionalidade dos endpoints do sistema." | 5 | 3 |
-| 18 | MÉDIA | "Como usuário, quero acesso a um manual de uso e instalação da aplicação." | 3 | 3 |
-| 19 | MÉDIA | "Como usuário, quero ver o motivo pelo qual meu reembolso foi rejeitado, para que possa corrigir e reenviar, se necessário." | 1 | 3 |
+| 10 | ALTA | "Como usuário, quero pertencer a múltiplos grupos e projetos, para que possa gerenciar reembolsos de diferentes áreas." | 3 | 2 | O sistema deve associar o usuário a grupos/projetos, cada projeto pode ter valores limites e opções diferentes para o usuário. |
+| 11 | ALTA | "Como usuário, quero escolher o projeto, grupo ou área do reembolso, para que possa organizar minhas solicitações corretamente." | 3 | 2 | O usuário deve ser capaz de escolher um projeto em específico para realização do reembolso. |
+| 12 | ALTA | "Como usuário, quero tirar uma foto do comprovante de despesa, para que possa anexá-lo à minha solicitação de reembolso." | 2 | 2 | O usuário deve ser capaz de escolher a utilizar a câmera do dispositivo para enviar comprovantes como anexos. |
+| 13 | ALTA | "Como usuário, quero visualizar o status do meu pedido de reembolso, para que possa saber se foi aprovado ou rejeitado." | 1 | 2 | O usuário deve ter acesso a uma lista de reembolsos em que seus status são apresentados. |
+| 14 | MÉDIA | "Como usuário, quero que meus reembolsos sejam organizados por projeto, grupo ou área, para que possa gerenciá-los com mais eficiência." | 3 | 2 | O usuário deve poder filtrar seus reembolsos por projeto através de um botão com uma lista dos projetos da qual ele pertence. |
+| 15 | MÉDIA | "Como usuário, quero cancelar uma solicitação de reembolso antes da aprovação, para que possa evitar processamento de pedidos incorretos." | 1 | 2 | O usuário deve ser apresentado com um botão para cancelar seu pedido antes do envio do mesmo. |
+| 16 | MÉDIA | "Como usuário, quero filtrar meus reembolsos por status (pendente, aprovado, rejeitado) ou por período para que possa encontrar informações rapidamente" | 4 | 2 | O usuário deve poder escolher em um botão o método de filtragem por status do pedido. |
+| 17 | MÉDIA | "Como desenvolvidor, quero acesso a uma documentação ampla da funcionalidade dos endpoints do sistema." | 5 | 3 | O sistema deve disponibilizar acesso a uma página web (swagger) com documentação de todos os end-points da API utilizada na aplicação com exemplos. |
+| 18 | MÉDIA | "Como usuário, quero acesso a um manual de uso e instalação da aplicação." | 3 | 3 | O  README do projeto deve incluir instruções de como rodar o projeto |
+| 19 | MÉDIA | "Como usuário, quero ver o motivo pelo qual meu reembolso foi rejeitado, para que possa corrigir e reenviar, se necessário." | 1 | 3 | O projeto deve mostrar dentro de uma tela separada detalhes do estado do reembolso e a justificativa da rejeição caso haja. |
 
 </details>
 
