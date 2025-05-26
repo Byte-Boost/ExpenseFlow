@@ -72,48 +72,17 @@ A visão do ExpenseFlow é ser uma solução móvel para a gestão e requisiçã
 | 16 | MÉDIA | "Como usuário, quero filtrar meus reembolsos por status (pendente, aprovado, rejeitado) ou por período (mensal, trimestral, anual), para que possa encontrar informações rapidamente" | 4 | 2 |
 | 17 | MÉDIA | "Como desenvolvidor, quero acesso a uma documentação ampla da funcionalidade dos endpoints do sistema." | 5 | 3 |
 | 18 | MÉDIA | "Como usuário, quero acesso a um manual de uso e instalação da aplicação." | 3 | 3 |
-| 19 | MÉDIA | "Como usuário, quero receber uma notificação quando meu reembolso for aprovado ou rejeitado, para que possa acompanhar meu pedido sem precisar abrir o app o tempo todo." | 1 | 3 |
-| 20 | MÉDIA | "Como usuário, quero ver o motivo pelo qual meu reembolso foi rejeitado, para que possa corrigir e reenviar, se necessário." | 1 | 3 |
+| 19 | MÉDIA | "Como usuário, quero ver o motivo pelo qual meu reembolso foi rejeitado, para que possa corrigir e reenviar, se necessário." | 1 | 3 |
 
 </details>
-<!--
-<details>
- <summary>Sprint-1 Backlog</summary>
-| Rank | Prioridade | Requisito | Tarefa |
-| --- | --- | --- | --- |
-</details>
-<details>
- <summary>Sprint-2 Backlog</summary>
-| Rank | Prioridade | Requisito | Tarefa |
-| --- | --- | --- | --- |
-</details>
-<details>
- <summary>Sprint-3 Backlog</summary>
-| Rank | Prioridade | Requisito | Tarefa |
-| --- | --- | --- | --- |
-</details>
-<details>
- <summary>Sprint-4 Backlog</summary>
-| Rank | Prioridade | Requisito | Tarefa |
-| --- | --- | --- | --- |
-</details>
--->
 
 ## 🎥 Video Apresentação
 
-<details>
- <summary>Sprints</summary>
-<!--  
-## Sprint 1   
-https://github.com/user-attachments/assets/
-## Sprint 2
-https://github.com/user-attachments/assets/
-## Sprint 3
-https://github.com/user-attachments/assets/
-## Sprint 4
-https://github.com/user-attachments/assets/
--->
-</details>
+
+https://github.com/user-attachments/assets/848a7fad-dba6-476f-a3b4-9bb696e17811
+
+
+
 
    
 <span id="requisitos">
@@ -163,7 +132,7 @@ git clone https://github.com/Byte-Boost/ExpenseFlow
 3. Entre no diretório ExpenseFlow\Backend_ExpenseFlow
 4. Crie um arquivo chamado ".env"
 5. Abra este arquivo com seu editor de texto de preferência, e preencha o mesmo seguindo o modelo ".env.example", presente no mesmo diretório.
-6. Repita os passos 4 e 5 no diretório ExpenseFlow\Frontend_ExpenseFlow
+6. Repita os passos 4 e 5 no diretório ExpenseFlow\Frontend_ExpenseFlow e ExpenseFlow\Web_ExpenseFlow
 
 
 ### Executando o projeto
@@ -186,6 +155,13 @@ npm install
 npx expo start
 ```
 
+#### Web
+1. Abra o cmd na pasta ExpenseFlow\Web_ExpenseFlow
+2. Rode os comandos:
+```
+npm install
+npm run dev
+```
 
 <span id="equipe">
    
