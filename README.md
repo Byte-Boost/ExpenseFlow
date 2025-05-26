@@ -77,7 +77,7 @@ A visão do ExpenseFlow é ser uma solução móvel para a gestão e requisiçã
 </details>
 
 ## 🎥 Video Apresentação
-
+[Video no Youtube](https://www.youtube.com/watch?v=ZAJ3bKtVzVc&feature=youtu.be)
 
 https://github.com/user-attachments/assets/848a7fad-dba6-476f-a3b4-9bb696e17811
 
