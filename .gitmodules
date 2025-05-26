@@ -4,3 +4,6 @@
 [submodule "Frontend_ExpenseFlow"]
 	path = Frontend_ExpenseFlow
 	url = https://github.com/Byte-Boost/Frontend_ExpenseFlow
+[submodule "Web_ExpenseFlow"]
+	path = Web_ExpenseFlow
+	url = https://github.com/Byte-Boost/Web_ExpenseFlow
